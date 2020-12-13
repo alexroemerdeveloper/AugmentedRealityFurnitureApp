@@ -13,6 +13,26 @@
 		6FC1CC7A257FC0990095A2EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC1CC79257FC0990095A2EB /* Preview Assets.xcassets */; };
 		6FC1CC85257FC0990095A2EB /* ARFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC1CC84257FC0990095A2EB /* ARFTests.swift */; };
 		6FC1CC90257FC09A0095A2EB /* ARFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC1CC8F257FC09A0095A2EB /* ARFUITests.swift */; };
+		6FF1740325869C7600BA7275 /* vintagerobot2k.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173EF25869C6D00BA7275 /* vintagerobot2k.usdz */; };
+		6FF1740425869C7600BA7275 /* biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173F025869C6E00BA7275 /* biplane.usdz */; };
+		6FF1740525869C7600BA7275 /* Chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173F125869C6E00BA7275 /* Chair.usdz */; };
+		6FF1740625869C7600BA7275 /* cupandsaucer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173F225869C6E00BA7275 /* cupandsaucer.usdz */; };
+		6FF1740725869C7600BA7275 /* toycar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173F325869C6F00BA7275 /* toycar.usdz */; };
+		6FF1740825869C7600BA7275 /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173F425869C6F00BA7275 /* wateringcan.usdz */; };
+		6FF1740925869C7600BA7275 /* Cake.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173F525869C7000BA7275 /* Cake.usdz */; };
+		6FF1740A25869C7600BA7275 /* Desk_Set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173F625869C7000BA7275 /* Desk_Set.usdz */; };
+		6FF1740B25869C7600BA7275 /* redchair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173F725869C7000BA7275 /* redchair.usdz */; };
+		6FF1740C25869C7600BA7275 /* Desk.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173F825869C7100BA7275 /* Desk.usdz */; };
+		6FF1740D25869C7600BA7275 /* trowel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173F925869C7100BA7275 /* trowel.usdz */; };
+		6FF1740E25869C7600BA7275 /* Lamp.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173FA25869C7100BA7275 /* Lamp.usdz */; };
+		6FF1740F25869C7600BA7275 /* wheelbarrow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173FB25869C7200BA7275 /* wheelbarrow.usdz */; };
+		6FF1741025869C7600BA7275 /* drummertoy.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173FC25869C7200BA7275 /* drummertoy.usdz */; };
+		6FF1741125869C7600BA7275 /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173FD25869C7300BA7275 /* gramophone.usdz */; };
+		6FF1741225869C7600BA7275 /* plantpot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173FE25869C7400BA7275 /* plantpot.usdz */; };
+		6FF1741325869C7600BA7275 /* tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF173FF25869C7400BA7275 /* tulip.usdz */; };
+		6FF1741425869C7600BA7275 /* stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF1740025869C7500BA7275 /* stratocaster.usdz */; };
+		6FF1741525869C7600BA7275 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF1740125869C7500BA7275 /* teapot.usdz */; };
+		6FF1741625869C7600BA7275 /* retrotv.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6FF1740225869C7600BA7275 /* retrotv.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +65,26 @@
 		6FC1CC8B257FC09A0095A2EB /* ARFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC1CC8F257FC09A0095A2EB /* ARFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFUITests.swift; sourceTree = "<group>"; };
 		6FC1CC91257FC09A0095A2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF173EF25869C6D00BA7275 /* vintagerobot2k.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = vintagerobot2k.usdz; sourceTree = "<group>"; };
+		6FF173F025869C6E00BA7275 /* biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = biplane.usdz; sourceTree = "<group>"; };
+		6FF173F125869C6E00BA7275 /* Chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Chair.usdz; sourceTree = "<group>"; };
+		6FF173F225869C6E00BA7275 /* cupandsaucer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cupandsaucer.usdz; sourceTree = "<group>"; };
+		6FF173F325869C6F00BA7275 /* toycar.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toycar.usdz; sourceTree = "<group>"; };
+		6FF173F425869C6F00BA7275 /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wateringcan.usdz; sourceTree = "<group>"; };
+		6FF173F525869C7000BA7275 /* Cake.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Cake.usdz; sourceTree = "<group>"; };
+		6FF173F625869C7000BA7275 /* Desk_Set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Desk_Set.usdz; sourceTree = "<group>"; };
+		6FF173F725869C7000BA7275 /* redchair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = redchair.usdz; sourceTree = "<group>"; };
+		6FF173F825869C7100BA7275 /* Desk.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Desk.usdz; sourceTree = "<group>"; };
+		6FF173F925869C7100BA7275 /* trowel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = trowel.usdz; sourceTree = "<group>"; };
+		6FF173FA25869C7100BA7275 /* Lamp.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Lamp.usdz; sourceTree = "<group>"; };
+		6FF173FB25869C7200BA7275 /* wheelbarrow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wheelbarrow.usdz; sourceTree = "<group>"; };
+		6FF173FC25869C7200BA7275 /* drummertoy.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = drummertoy.usdz; sourceTree = "<group>"; };
+		6FF173FD25869C7300BA7275 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
+		6FF173FE25869C7400BA7275 /* plantpot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = plantpot.usdz; sourceTree = "<group>"; };
+		6FF173FF25869C7400BA7275 /* tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tulip.usdz; sourceTree = "<group>"; };
+		6FF1740025869C7500BA7275 /* stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = stratocaster.usdz; sourceTree = "<group>"; };
+		6FF1740125869C7500BA7275 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		6FF1740225869C7600BA7275 /* retrotv.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = retrotv.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +135,7 @@
 		6FC1CC71257FC0960095A2EB /* ARF */ = {
 			isa = PBXGroup;
 			children = (
+				6FF173EE25869C1B00BA7275 /* 3D Assets */,
 				6FC1CC72257FC0960095A2EB /* ARFApp.swift */,
 				6FC1CC74257FC0960095A2EB /* ContentView.swift */,
 				6FC1CC76257FC0990095A2EB /* Assets.xcassets */,
@@ -128,6 +169,33 @@
 				6FC1CC91257FC09A0095A2EB /* Info.plist */,
 			);
 			path = ARFUITests;
+			sourceTree = "<group>";
+		};
+		6FF173EE25869C1B00BA7275 /* 3D Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6FF173F025869C6E00BA7275 /* biplane.usdz */,
+				6FF173F525869C7000BA7275 /* Cake.usdz */,
+				6FF173F125869C6E00BA7275 /* Chair.usdz */,
+				6FF173F225869C6E00BA7275 /* cupandsaucer.usdz */,
+				6FF173F625869C7000BA7275 /* Desk_Set.usdz */,
+				6FF173F825869C7100BA7275 /* Desk.usdz */,
+				6FF173FC25869C7200BA7275 /* drummertoy.usdz */,
+				6FF173FD25869C7300BA7275 /* gramophone.usdz */,
+				6FF173FA25869C7100BA7275 /* Lamp.usdz */,
+				6FF173FE25869C7400BA7275 /* plantpot.usdz */,
+				6FF173F725869C7000BA7275 /* redchair.usdz */,
+				6FF1740225869C7600BA7275 /* retrotv.usdz */,
+				6FF1740025869C7500BA7275 /* stratocaster.usdz */,
+				6FF1740125869C7500BA7275 /* teapot.usdz */,
+				6FF173F325869C6F00BA7275 /* toycar.usdz */,
+				6FF173F925869C7100BA7275 /* trowel.usdz */,
+				6FF173FF25869C7400BA7275 /* tulip.usdz */,
+				6FF173EF25869C6D00BA7275 /* vintagerobot2k.usdz */,
+				6FF173F425869C6F00BA7275 /* wateringcan.usdz */,
+				6FF173FB25869C7200BA7275 /* wheelbarrow.usdz */,
+			);
+			path = "3D Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +302,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FC1CC7A257FC0990095A2EB /* Preview Assets.xcassets in Resources */,
+				6FF1740725869C7600BA7275 /* toycar.usdz in Resources */,
+				6FF1740F25869C7600BA7275 /* wheelbarrow.usdz in Resources */,
+				6FF1741525869C7600BA7275 /* teapot.usdz in Resources */,
+				6FF1740625869C7600BA7275 /* cupandsaucer.usdz in Resources */,
+				6FF1740A25869C7600BA7275 /* Desk_Set.usdz in Resources */,
+				6FF1741225869C7600BA7275 /* plantpot.usdz in Resources */,
 				6FC1CC77257FC0990095A2EB /* Assets.xcassets in Resources */,
+				6FF1740325869C7600BA7275 /* vintagerobot2k.usdz in Resources */,
+				6FF1740925869C7600BA7275 /* Cake.usdz in Resources */,
+				6FF1740525869C7600BA7275 /* Chair.usdz in Resources */,
+				6FF1740C25869C7600BA7275 /* Desk.usdz in Resources */,
+				6FF1741325869C7600BA7275 /* tulip.usdz in Resources */,
+				6FF1741425869C7600BA7275 /* stratocaster.usdz in Resources */,
+				6FF1740425869C7600BA7275 /* biplane.usdz in Resources */,
+				6FF1741025869C7600BA7275 /* drummertoy.usdz in Resources */,
+				6FF1740D25869C7600BA7275 /* trowel.usdz in Resources */,
+				6FF1740E25869C7600BA7275 /* Lamp.usdz in Resources */,
+				6FF1740B25869C7600BA7275 /* redchair.usdz in Resources */,
+				6FF1740825869C7600BA7275 /* wateringcan.usdz in Resources */,
+				6FF1741625869C7600BA7275 /* retrotv.usdz in Resources */,
+				6FF1741125869C7600BA7275 /* gramophone.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
