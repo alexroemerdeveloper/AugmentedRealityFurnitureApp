@@ -8,6 +8,7 @@
 import SwiftUI
 import Combine
 import RealityKit
+import ARKit
 
 enum ModelCategory: CaseIterable {
     case table, chair, decor, light
@@ -36,6 +37,8 @@ class Model {
     var modelEntity: ModelEntity?
     var scaleCompensation: Float
     
+    private var cancellable: AnyCancellable?
+    
     internal init(name: String, category: ModelCategory, scaleCompensation: Float = 1.0) {
         self.name = name
         self.category = category
@@ -44,6 +47,23 @@ class Model {
     }
     
     //TODO: Create a method to async load model
+    func asyncLoadModelEntity() {
+        let filename = self.name + ".usdz"
+        
+        self.cancellable = ModelEntity.loadModelAsync(named: filename)
+            .sink(receiveCompletion: { loadCompletion in
+                switch loadCompletion {
+                case .failure(let error):
+                    print("Unable to load modelEntity for \(filename). Error: \(error.localizedDescription)")
+                case .finished:
+                    break
+                }
+            }, receiveValue: { modelEntity in
+                self.modelEntity = modelEntity
+                self.modelEntity?.scale *= self.scaleCompensation
+            })
+        
+    }
     
     
 }

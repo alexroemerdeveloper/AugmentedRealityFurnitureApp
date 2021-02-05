@@ -82,6 +82,7 @@ struct HorizontalGrid: View {
                         ItemButton(model: items[index]) {
                             //call model method to async load Entity
                             //select mdoel for placement
+                            items[index].asyncLoadModelEntity()
                             print("BrowseView \(items[index].name)")
                             showBrowse = false
                         }
