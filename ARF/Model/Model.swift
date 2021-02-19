@@ -72,31 +72,47 @@ class Model {
 struct Models {
     var all: [Model] = []
     init() {
-        let diningTable = Model(name: "dining_table", category: .table, scaleCompensation: 0.32/100)
-        let familyTable = Model(name: "family_table", category: .table, scaleCompensation: 0.32/100)
-        self.all += [diningTable, familyTable]
+        let desk = Model(name: "Desk", category: .table, scaleCompensation: 0.32/100)
+        let deskSet = Model(name: "Desk_Set", category: .table, scaleCompensation: 0.32/100)
+        self.all += [desk, deskSet]
         
-        let diningChair = Model(name: "dining_chair", category: .chair, scaleCompensation: 0.32/100)
-        let eamesChairWhite = Model(name: "eames_chair_white", category: .chair, scaleCompensation: 0.32/100)
-        let eamesChairWoodgrain = Model(name: "eames_chair_woodgrain", category: .chair, scaleCompensation: 0.32/100)
-        let eamesChairBlackLeather = Model(name: "eames_chair_black_leather", category: .chair, scaleCompensation: 0.32/100)
-        let eamesChairBrownLeather = Model(name: "eames_chair_brown_leather", category: .chair, scaleCompensation: 0.32/100)
-        
-        self.all += [diningChair, eamesChairWhite, eamesChairWoodgrain, eamesChairBlackLeather, eamesChairBrownLeather]
-        
-        let cupSaucerSet = Model(name: "cup_saucer_set", category: .decor)
-        let teaPot = Model(name: "teapot", category: .decor)
-        let flowerTulip = Model(name: "flower_tulip", category: .decor)
-        let plateSetDark = Model(name: "plate_set_dark", category: .decor, scaleCompensation: 0.32/100)
-        let plateSetLight = Model(name: "plate_set_light", category: .decor, scaleCompensation: 0.32/100)
-        let pottedFloorPlant = Model(name: "potted_floor_plant", category: .decor, scaleCompensation: 0.8)
+        let chair = Model(name: "redchair", category: .chair, scaleCompensation: 0.32/100)
+        self.all += [chair]
 
-        self.all += [cupSaucerSet, teaPot, flowerTulip, plateSetDark, plateSetDark, plateSetLight, pottedFloorPlant]
+        let tulip = Model(name: "tulip", category: .decor)
+        let cupandsaucer = Model(name: "cupandsaucer", category: .decor)
+        let trowel = Model(name: "trowel", category: .decor)
+        let teapot = Model(name: "teapot", category: .decor)
+        self.all += [tulip, cupandsaucer, trowel, teapot]
         
-        let floorLampClassic = Model(name: "floor_Lamp_classic", category: .light, scaleCompensation: 0.01)
-        let floorLampModern = Model(name: "floor_lamp_modern", category: .light, scaleCompensation: 0.01)
+        let lamp = Model(name: "Lamp", category: .light)
+        let retrotv = Model(name: "retrotv", category: .light)
+        self.all += [lamp, retrotv]
 
-        self.all += [floorLampClassic, floorLampModern]
+        //        let diningChair = Model(name: "dining_chair", category: .chair, scaleCompensation: 0.32/100)
+        //        let eamesChairWhite = Model(name: "eames_chair_white", category: .chair, 
+        
+//        let diningChair = Model(name: "dining_chair", category: .chair, scaleCompensation: 0.32/100)
+//        let eamesChairWhite = Model(name: "eames_chair_white", category: .chair, scaleCompensation: 0.32/100)
+//        let eamesChairWoodgrain = Model(name: "eames_chair_woodgrain", category: .chair, scaleCompensation: 0.32/100)
+//        let eamesChairBlackLeather = Model(name: "eames_chair_black_leather", category: .chair, scaleCompensation: 0.32/100)
+//        let eamesChairBrownLeather = Model(name: "eames_chair_brown_leather", category: .chair, scaleCompensation: 0.32/100)
+//
+//        self.all += [diningChair, eamesChairWhite, eamesChairWoodgrain, eamesChairBlackLeather, eamesChairBrownLeather]
+//
+//        let cupSaucerSet = Model(name: "cup_saucer_set", category: .decor)
+//        let teaPot = Model(name: "teapot", category: .decor)
+//        let flowerTulip = Model(name: "flower_tulip", category: .decor)
+//        let plateSetDark = Model(name: "plate_set_dark", category: .decor, scaleCompensation: 0.32/100)
+//        let plateSetLight = Model(name: "plate_set_light", category: .decor, scaleCompensation: 0.32/100)
+//        let pottedFloorPlant = Model(name: "potted_floor_plant", category: .decor, scaleCompensation: 0.8)
+//
+//        self.all += [cupSaucerSet, teaPot, flowerTulip, plateSetDark, plateSetDark, plateSetLight, pottedFloorPlant]
+//
+//        let floorLampClassic = Model(name: "floor_Lamp_classic", category: .light, scaleCompensation: 0.01)
+//        let floorLampModern = Model(name: "floor_lamp_modern", category: .light, scaleCompensation: 0.01)
+//
+//        self.all += [floorLampClassic, floorLampModern]
     }
     
     

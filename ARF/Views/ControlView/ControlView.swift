@@ -16,7 +16,6 @@ struct ControlView: View {
         VStack {
             ControlVisibilityButton(isControlVisible: $isControlVisible)
             Spacer()
-            
             if isControlVisible {
                 ControlButtonBar(showBrowse: $showBrowse)
             }
