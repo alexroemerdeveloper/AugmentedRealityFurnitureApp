@@ -29,7 +29,8 @@ class PlacementSettings: ObservableObject {
         }
     }
     
-    
+    ///This property retains the cancellabel object for our SceneEvents.Update subscriber
+    var sceneObserver: Cancellable?
     
     
     
